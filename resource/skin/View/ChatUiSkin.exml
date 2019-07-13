@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatUiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="244" height="118">
+	<e:Group id="chatGroup" x="0" y="0" touchThrough="true" width="244" height="118">
+		<e:Image id="chatBg" y="0" x="0" source="chatPopBg1_png" visible="false"/>
+		<e:Image id="chatBg23" source="chatPopBg1_png" x="122" y="1" anchorOffsetX="122" anchorOffsetY="1" scaleX="-1"/>
+		<e:Label id="chatText" text="快点儿吧快点儿吧快点儿吧" y="40" size="21" textAlign="left" fontFamily="Microsoft YaHei" textColor="0xffffff" width="210" x="18" visible="false"/>
+		<e:Label id="chatText23" text="快点儿吧快点儿吧快点儿吧" y="40" size="21" textAlign="left" fontFamily="Microsoft YaHei" x="18" textColor="0xffffff" width="210"/>
+		<e:Group id="chatGifGroup" x="-67" y="-50"/>
+		<e:Group id="chatGifGroup23" x="253" y="-55"/>
+	</e:Group>
+</e:Skin>

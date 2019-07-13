@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SmallSinTotalScoreSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="700" height="60">
+	<e:Group id="smallTotalScore" y="0" height="60" width="700">
+		<e:Image y="56" source="tuoyuan_png" width="700"/>
+		<e:Rect id="headRect" width="50" height="50" x="60" ellipseWidth="180" ellipseHeight="180" y="3"/>
+		<e:Image name="headImg" x="60" width="50" height="50" y="3" source=""/>
+		<e:Image id="winImg" x="39" y="-18" source="winner_png" scaleX="0.8" scaleY="0.8" visible="false"/>
+		<e:Label text="" size="24" width="110" height="22" fontFamily="SimHei" name="nickName" x="163" verticalAlign="middle" textAlign="center" textColor="0xd9d9d9" y="17"/>
+		<e:Group id="totalCardGroup" y="173" horizontalCenter="0" visible="false">
+			<e:Image scaleX="0.83" scaleY="0.83" source=""/>
+			<e:Image scaleX="0.83" scaleY="0.83" x="10" y="10" source=""/>
+			<e:Image scaleX="0.83" scaleY="0.83" x="20" y="20" source=""/>
+			<e:layout>
+			<e:HorizontalLayout gap="-25"/>
+			</e:layout>
+		</e:Group>
+		<e:Label text="同花顺" fontFamily="SimHei" name="cardType" width="120" verticalAlign="middle" textAlign="center" height="36" size="36" textColor="0xffdd69" x="330" y="10"/>
+		<e:Label text="成绩" x="540" size="24" fontFamily="SimHei" textColor="0xd9d9d9" y="16"/>
+		<e:Label text="-100" fontFamily="SimHei" name="score" width="100" verticalAlign="middle" textAlign="center" height="30" textColor="0xff6565" x="580" y="13"/>
+	</e:Group>
+</e:Skin>

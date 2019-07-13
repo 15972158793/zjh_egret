@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.VSliderSkin" minWidth="25" minHeight="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="addInjectBg_png"/>
+    <e:Image id="track" anchorOffsetY="114" anchorOffsetX="17" source="addChip1_png" y="181" scale9Grid="7,12,14,216" x="80"/>
+    <e:Image id="thumb"  source="addChip_png" horizontalCenter="0" anchorOffsetX="48" anchorOffsetY="56" scale9Grid="12,12,72,74" verticalCenter="0"/>
+	<e:Label text="" y="33" fontFamily="SimHei" textAlign="center" verticalAlign="middle" horizontalCenter="0"/>
+</e:Skin>

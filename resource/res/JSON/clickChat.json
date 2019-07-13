@@ -1,0 +1,8 @@
+{"file":"clickChat.png","frames":{
+"rightTitleBg_png":{"x":0,"y":204,"w":270,"h":55,"offX":0,"offY":0,"sourceW":270,"sourceH":55},
+"rightTitleBg1_png":{"x":0,"y":147,"w":270,"h":55,"offX":0,"offY":0,"sourceW":270,"sourceH":55},
+"textImg_png":{"x":371,"y":33,"w":65,"h":34,"offX":0,"offY":0,"sourceW":66,"sourceH":35},
+"contentBg_png":{"x":0,"y":0,"w":500,"h":31,"offX":0,"offY":0,"sourceW":500,"sourceH":31},
+"faceImg_png":{"x":272,"y":33,"w":97,"h":35,"offX":0,"offY":0,"sourceW":97,"sourceH":35},
+"leftTitleBg_png":{"x":0,"y":33,"w":270,"h":55,"offX":0,"offY":0,"sourceW":270,"sourceH":55},
+"leftTitleBg1_png":{"x":0,"y":90,"w":270,"h":55,"offX":0,"offY":0,"sourceW":270,"sourceH":55}}}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecordViewSKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="750" height="1206">
+	<e:Rect id="recordRect" width="100%" height="100%" alpha="0.8"/>
+	<e:Group id="moveGroup" x="-567">
+		<e:Image source="zhanjimianban_png" x="0" scaleX="1" scaleY="1"/>
+		<e:Image width="475" scaleX="1" scaleY="1" source="tuoyuan_png" x="15" y="119.99999999999997"/>
+		<e:Image x="504" source="recordClose_png" y="-10"/>
+		<e:Group id="closeGroup" width="46" height="100" x="511" y="472"/>
+		<e:Group id="recordGroup" y="0" x="0">
+			<e:Label text="昵称" x="85" y="75" textColor="0x53290c" size="26" fontFamily="SimHei"/>
+			<e:Label text="牌型" x="255" y="75" textColor="0x53290C" size="26" fontFamily="SimHei"/>
+			<e:Label text="成绩" x="415" y="75" size="26" fontFamily="SimHei" textColor="0x53290c"/>
+			<e:RadioButton id="LastGame" label="" selected="true" x="-4" enabled="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="260" height="54">
+				<e:Image width="260" height="54" source="recordbg2_png" source.down="recordbger2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="lastGame_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="RecoredGame" label="" x="241">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="260" height="54">
+				<e:Image width="260" height="54" source="recordbg2_png" source.down="recordbger2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="ownGameRecord_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:Scroller y="120" scrollPolicyV="on" scrollPolicyH="off" width="500" height="960">
+			<e:Group width="500">
+				<e:List id="recoredLisk" width="500" x="0" y="0" itemRendererSkinName="RecoredSinViewSkin" scaleX="1" scaleY="1">
+				<e:ArrayCollection>
+					<e:Array/>
+				</e:ArrayCollection>
+				</e:List>
+				<e:Label id="tips" text="暂无记录，先玩一局吧！" y="25" fontFamily="SimHei" x="20" size="26" textColor="0x53290c" visible="false"/>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="lookPlayerGroup" width="510" height="1080" y="0" x="0" visible="false">
+			<e:Image source="recordbger2_png"/>
+			<e:Image horizontalCenter="0" source="lookPlayer_png" y="10"/>
+			<e:Label id="lookPlayerNum" text="围观（0）" x="18" y="78" textColor="0x53290c" size="26" fontFamily="SimHei"/>
+			<e:Scroller width="500" height="960" scaleX="1" scaleY="1" y="124">
+			<e:Group>
+				<e:List id="lookPlayerList" width="470" itemRendererSkinName="LookPlayerHeadSkin" horizontalCenter="0">
+				<e:layout>
+					<e:TileLayout horizontalGap="36" verticalGap="20"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array/>
+				</e:ArrayCollection>
+				</e:List>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

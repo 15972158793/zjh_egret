@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SmallTotalScoreSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="750" height="1206">
+	<e:Rect width="100%" height="100%" alpha="0.8" touchEnabled="false"/>
+	<e:Group y="50" touchThrough="true" horizontalCenter="0">
+		<e:Image id="bg" touchEnabled="false" x="0" source="totalScoreBg_png" scale9Grid="45,73,680,275"/>
+		<e:Image y="69" source="smallTotalScoreTitle_png" horizontalCenter="0"/>
+		<e:Image id="winOrLose" y="0" source="lose_png" horizontalCenter="0" visible="false"/>
+		<e:Button id="closeBtn" label="" x="654" scaleX="1" scaleY="1" y="-9" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="88" height="88">
+				<e:Image width="88" height="88" source="closeBtn_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:List id="totalScoreList" y="130" itemRendererSkinName="SmallSinTotalScoreSkin" horizontalCenter="0">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+		<e:RadioButton label="" y="918" horizontalCenter="0" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="224" height="86">
+				<e:Image width="224" height="86" source="continueBtn_png" horizontalCenter="0" verticalCenter="0" width.down="224" scaleX.down="0.9" scaleY.down="0.9"/>
+	<e:Image source="continueGame_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:Button id="continueBtn" label="" y="940" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

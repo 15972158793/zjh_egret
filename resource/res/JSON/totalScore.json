@@ -1,0 +1,7 @@
+{"file":"totalScore.png","frames":{
+"endTotalScoreTitle_png":{"x":0,"y":66,"w":158,"h":64,"offX":1,"offY":0,"sourceW":160,"sourceH":64},
+"shareRecord_png":{"x":0,"y":132,"w":122,"h":32,"offX":0,"offY":0,"sourceW":122,"sourceH":32},
+"smallTotalScoreTitle_png":{"x":0,"y":0,"w":210,"h":64,"offX":0,"offY":0,"sourceW":210,"sourceH":65},
+"winner_png":{"x":160,"y":66,"w":79,"h":83,"offX":1,"offY":0,"sourceW":82,"sourceH":84},
+"backHome_png":{"x":0,"y":166,"w":122,"h":31,"offX":0,"offY":0,"sourceW":122,"sourceH":31},
+"continueGame_png":{"x":124,"y":151,"w":122,"h":32,"offX":0,"offY":0,"sourceW":122,"sourceH":32}}}

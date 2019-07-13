@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="173" height="80">
+    <e:Image alpha.disabled="0.5"
+            
+             horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" width="173" height="80" source="greenBtn2_png" source.down="greenBtn2_png_png"/>
+    <e:Image horizontalCenter="0" verticalCenter="0" source="continueGame_png" scaleX.down="0.9" scaleY.down="0.9"/>
+</e:Skin>

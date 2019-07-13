@@ -1,0 +1,9 @@
+<configs>
+
+	<singAddress singAddress="http://model.vequn.org/share"/>
+	<hallAdress hallAdress="http://model.vequn.org"/>
+	<logoAddress logoAddress="http://img.hb.aicdn.com/7a480413da90923346f1637ce0f080222fbca25d3deca-HxxEXO_fw658"/>
+	<linkAddress linkAddress="http://model.vequn.org"/>
+	<websocketIP websocketIP=""/>
+	<websocketPort websocketPort=""/>
+</configs>

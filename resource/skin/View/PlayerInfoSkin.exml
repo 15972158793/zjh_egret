@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerInfoSkin" width="750" height="1206" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="closeRect" height="100%" width="100%" alpha="0.8"/>
+	<e:Image verticalCenter="0" source="chatbg1_png" horizontalCenter="0"/>
+	<e:Image y="410" source="playerInfoTitle_png" horizontalCenter="0"/>
+	<e:Button id="closeBtn" label="" x="588" scaleX="1" scaleY="1" y="397">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="88" height="88">
+			<e:Image width="88" height="88" source="closeBtn_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="headUrlImgGroup" x="141" y="517">
+		<e:Image horizontalCenter="0" verticalCenter="0" source="playerInfoHeadBg_png"/>
+		<e:Image width="108" height="108" horizontalCenter="0" verticalCenter="0" name="headUrl"/>
+	</e:Group>
+	<e:Group id="infoGroup" x="284" y="503">
+		<e:Label text="" x="0" y="0" size="36" fontFamily="SimHei" name="Nick_name" width="330" textAlign="left" height="36" textColor="0x241506"/>
+		<e:Label text="" y="10" size="36" fontFamily="SimHei" name="I_D" width="330" textAlign="left" height="36" textColor="0x241506"/>
+		<e:Label text="" x="20" y="20" size="36" fontFamily="SimHei" name="Local" width="330" textAlign="left" height="36" textColor="0x241506"/>
+		<e:Label text="" x="30" y="30" size="36" fontFamily="SimHei" name="I_P" width="330" textAlign="left" height="36" textColor="0x241506"/>
+		<e:layout>
+			<e:VerticalLayout gap="30"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

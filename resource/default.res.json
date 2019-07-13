@@ -1,0 +1,519 @@
+{
+	"groups": [
+		{
+			"keys": "bgMusic_mp3,desk_json,cardJson2_json,turnCard_tex_png,turnCard_ske_json,turnCard_tex_json,yaoqing_png,downZhuozi_png,gameSet_png,zhuozi_jpg,game_tex_png,game_ske_json,game_tex_json,dn_game_tip_box__png",
+			"name": "loading"
+		},
+		{
+			"keys": "f_chat1_mp3,f_chat10_mp3,f_chat11_mp3,f_chat12_mp3,f_chat13_mp3,f_chat14_mp3,f_chat15_mp3,f_chat16_mp3,f_chat17_mp3,f_chat2_mp3,f_chat3_mp3,f_chat4_mp3,f_chat5_mp3,f_chat6_mp3,f_chat7_mp3,f_chat8_mp3,f_chat9_mp3,m_chat1_mp3,m_chat10_mp3,m_chat11_mp3,m_chat12_mp3,m_chat13_mp3,m_chat14_mp3,m_chat15_mp3,m_chat16_mp3,m_chat17_mp3,m_chat2_mp3,m_chat3_mp3,m_chat4_mp3,m_chat5_mp3,m_chat6_mp3,m_chat7_mp3,m_chat8_mp3,m_chat9_mp3,dealcard_mp3,f_add_mp3,f_cmp_mp3,f_follow2_mp3,f_giveup_mp3,f_watch_mp3,injectChipSound_mp3,m_add_mp3,m_cmp_mp3,m_follow2_mp3,m_giveup_mp3,m_watch_mp3,sound_fail_mp3,sound_win_mp3,winChipsSound_mp3",
+			"name": "sound"
+		},
+		{
+			"keys": "clickChat_json",
+			"name": "clickChat"
+		},
+		{
+			"keys": "chooseVs_json",
+			"name": "chooseVs"
+		},
+		{
+			"keys": "cardType_json",
+			"name": "cardType"
+		},
+		{
+			"keys": "face_json",
+			"name": "face"
+		},
+		{
+			"keys": "fallowForever_json",
+			"name": "fallowForever"
+		},
+		{
+			"keys": "gameWay_json",
+			"name": "gameWay"
+		},
+		{
+			"keys": "menu_json",
+			"name": "menu"
+		},
+		{
+			"keys": "seatDownBtn_png,playerReady_png",
+			"name": "preload"
+		},
+		{
+			"keys": "setImg_json",
+			"name": "setImg"
+		},
+		{
+			"keys": "totalScore_json",
+			"name": "totalScore"
+		},
+		{
+			"keys": "vsMsg_json",
+			"name": "vsMsg"
+		},
+		{
+			"keys": "face_ske_json,face_tex_json,face_tex_png",
+			"name": "faceMsg"
+		},
+		{
+			"keys": "record_json",
+			"name": "record"
+		},
+		{
+			"keys": "playWay_json",
+			"name": "playerInfo"
+		}
+	],
+	"resources": [
+		{
+			"url": "res/sound/bgMusic.mp3",
+			"type": "sound",
+			"name": "bgMusic_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat1.mp3",
+			"type": "sound",
+			"name": "f_chat1_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat10.mp3",
+			"type": "sound",
+			"name": "f_chat10_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat11.mp3",
+			"type": "sound",
+			"name": "f_chat11_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat12.mp3",
+			"type": "sound",
+			"name": "f_chat12_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat13.mp3",
+			"type": "sound",
+			"name": "f_chat13_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat14.mp3",
+			"type": "sound",
+			"name": "f_chat14_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat15.mp3",
+			"type": "sound",
+			"name": "f_chat15_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat16.mp3",
+			"type": "sound",
+			"name": "f_chat16_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat17.mp3",
+			"type": "sound",
+			"name": "f_chat17_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat2.mp3",
+			"type": "sound",
+			"name": "f_chat2_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat3.mp3",
+			"type": "sound",
+			"name": "f_chat3_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat4.mp3",
+			"type": "sound",
+			"name": "f_chat4_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat5.mp3",
+			"type": "sound",
+			"name": "f_chat5_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat6.mp3",
+			"type": "sound",
+			"name": "f_chat6_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat7.mp3",
+			"type": "sound",
+			"name": "f_chat7_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat8.mp3",
+			"type": "sound",
+			"name": "f_chat8_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/f_chat9.mp3",
+			"type": "sound",
+			"name": "f_chat9_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat1.mp3",
+			"type": "sound",
+			"name": "m_chat1_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat10.mp3",
+			"type": "sound",
+			"name": "m_chat10_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat11.mp3",
+			"type": "sound",
+			"name": "m_chat11_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat12.mp3",
+			"type": "sound",
+			"name": "m_chat12_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat13.mp3",
+			"type": "sound",
+			"name": "m_chat13_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat14.mp3",
+			"type": "sound",
+			"name": "m_chat14_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat15.mp3",
+			"type": "sound",
+			"name": "m_chat15_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat16.mp3",
+			"type": "sound",
+			"name": "m_chat16_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat17.mp3",
+			"type": "sound",
+			"name": "m_chat17_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat2.mp3",
+			"type": "sound",
+			"name": "m_chat2_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat3.mp3",
+			"type": "sound",
+			"name": "m_chat3_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat4.mp3",
+			"type": "sound",
+			"name": "m_chat4_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat5.mp3",
+			"type": "sound",
+			"name": "m_chat5_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat6.mp3",
+			"type": "sound",
+			"name": "m_chat6_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat7.mp3",
+			"type": "sound",
+			"name": "m_chat7_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat8.mp3",
+			"type": "sound",
+			"name": "m_chat8_mp3"
+		},
+		{
+			"url": "res/sound/chatSound/m_chat9.mp3",
+			"type": "sound",
+			"name": "m_chat9_mp3"
+		},
+		{
+			"url": "res/sound/dealcard.mp3",
+			"type": "sound",
+			"name": "dealcard_mp3"
+		},
+		{
+			"url": "res/sound/f_add.mp3",
+			"type": "sound",
+			"name": "f_add_mp3"
+		},
+		{
+			"url": "res/sound/f_cmp.mp3",
+			"type": "sound",
+			"name": "f_cmp_mp3"
+		},
+		{
+			"url": "res/sound/f_follow2.mp3",
+			"type": "sound",
+			"name": "f_follow2_mp3"
+		},
+		{
+			"url": "res/sound/f_giveup.mp3",
+			"type": "sound",
+			"name": "f_giveup_mp3"
+		},
+		{
+			"url": "res/sound/f_watch.mp3",
+			"type": "sound",
+			"name": "f_watch_mp3"
+		},
+		{
+			"url": "res/sound/injectChipSound.mp3",
+			"type": "sound",
+			"name": "injectChipSound_mp3"
+		},
+		{
+			"url": "res/sound/m_add.mp3",
+			"type": "sound",
+			"name": "m_add_mp3"
+		},
+		{
+			"url": "res/sound/m_cmp.mp3",
+			"type": "sound",
+			"name": "m_cmp_mp3"
+		},
+		{
+			"url": "res/sound/m_follow2.mp3",
+			"type": "sound",
+			"name": "m_follow2_mp3"
+		},
+		{
+			"url": "res/sound/m_giveup.mp3",
+			"type": "sound",
+			"name": "m_giveup_mp3"
+		},
+		{
+			"url": "res/sound/m_watch.mp3",
+			"type": "sound",
+			"name": "m_watch_mp3"
+		},
+		{
+			"url": "res/sound/sound_fail.mp3",
+			"type": "sound",
+			"name": "sound_fail_mp3"
+		},
+		{
+			"url": "res/sound/sound_win.mp3",
+			"type": "sound",
+			"name": "sound_win_mp3"
+		},
+		{
+			"url": "res/sound/winChipsSound.mp3",
+			"type": "sound",
+			"name": "winChipsSound_mp3"
+		},
+		{
+			"url": "res/JSON/cardType.json",
+			"type": "sheet",
+			"name": "cardType_json",
+			"subkeys": "juxing_png,type0_1_png,type0_png,type1_1_png,type1_png,type2_1_png,type2_png,type3_1_png,type3_png,type4_1_png,type4_png,type5_1_png,type5_png"
+		},
+		{
+			"url": "res/JSON/chooseVs.json",
+			"type": "sheet",
+			"name": "chooseVs_json",
+			"subkeys": "VSJiantou_png,VsChooseRect_png"
+		},
+		{
+			"url": "res/JSON/clickChat.json",
+			"type": "sheet",
+			"name": "clickChat_json",
+			"subkeys": "contentBg_png,faceImg_png,leftTitleBg1_png,leftTitleBg_png,rightTitleBg1_png,rightTitleBg_png,textImg_png"
+		},
+		{
+			"url": "res/JSON/desk.json",
+			"type": "sheet",
+			"name": "desk_json",
+			"subkeys": "addChip1_png,addChip_png,addInjectBg_png,addInjectImg_png,bar1_png,bar2_png,boomImg_png,boomLightImg_png,breakLine_png,btn1_png,btn2_png,btn3_png,cancelBtn_png,cancelCardImg_png,cancelReady_png,chatBtn_png,chatPopBg1_png,chip100_png,chip10_png,chip1_png,chip20_png,chip50_png,chip5_png,closeBtn_png,comeinTips_png,diajikanpaiyikanpai_png,dissolveTitle_png,dn_btn_icon_agree_png,fallowImg_png,fallowInjectImg_png,gameTip_png,giveUpCardTips_png,greenBtn2_png,headSeat1_png,jiantou_png,lookCardTips_png,menuBtn_png,recordBtn_png,shareFriend_png,soundSetBtn_png,standUp_png,startGame_png,sureBtn_png,totalInjectBg_png,tu1_png,tuoyuan_png,vsCardImg_png,vsCardLoser_png,yellowBtn2_png"
+		},
+		{
+			"url": "res/JSON/face.json",
+			"type": "sheet",
+			"name": "face_json",
+			"subkeys": "chatFace10_png,chatFace11_png,chatFace12_png,chatFace13_png,chatFace14_png,chatFace15_png,chatFace16_png,chatFace17_png,chatFace18_png,chatFace19_png,chatFace1_png,chatFace20_png,chatFace2_png,chatFace3_png,chatFace4_png,chatFace5_png,chatFace6_png,chatFace7_png,chatFace8_png,chatFace9_png"
+		},
+		{
+			"url": "res/JSON/fallowForever.json",
+			"type": "sheet",
+			"name": "fallowForever_json",
+			"subkeys": "effect1_png,effect2_png,effect3_png,effect4_png,effect5_png,effect6_png,effect7_png,effect8_png"
+		},
+		{
+			"url": "res/JSON/gameWay.json",
+			"type": "sheet",
+			"name": "gameWay_json",
+			"subkeys": "playWayBg_png,playWayContent_png,playWayTitle_png"
+		},
+		{
+			"url": "res/JSON/menu.json",
+			"type": "sheet",
+			"name": "menu_json",
+			"subkeys": "backRoom_png,gameTopp_png,gameWay_png,jiesanRoom_png,lastGame_png,lookPlayerBtn_png,lookPlayer_png,menuBg1_png,menuBg2_png,ownGameRecord_png,shareGame_png,standUp1_png"
+		},
+		{
+			"url": "res/JSON/playWay.json",
+			"type": "sheet",
+			"name": "playWay_json",
+			"subkeys": "playerInfoHeadBg_png,playerInfoTitle_png"
+		},
+		{
+			"url": "res/JSON/setImg.json",
+			"type": "sheet",
+			"name": "setImg_json",
+			"subkeys": "OFF_png,ON_png,effectImg_png,musicImg_png,setTitle_png"
+		},
+		{
+			"url": "res/JSON/vsMsg.json",
+			"type": "sheet",
+			"name": "vsMsg_json",
+			"subkeys": "failure_img_png,headRectImg_png,p_png,victory_png,vs_left_png,vs_right_png"
+		},
+		{
+			"url": "res/BigBg/chatbg1.png",
+			"type": "image",
+			"name": "chatbg1_png"
+		},
+		{
+			"url": "res/BigBg/gameTopImg.png",
+			"type": "image",
+			"name": "gameTopImg_png"
+		},
+		{
+			"url": "res/BigBg/recordShareImg.png",
+			"type": "image",
+			"name": "recordShareImg_png"
+		},
+		{
+			"url": "res/BigBg/shareImg.png",
+			"type": "image",
+			"name": "shareImg_png"
+		},
+		{
+			"url": "res/BigBg/totalScoreBg.png",
+			"type": "image",
+			"name": "totalScoreBg_png"
+		},
+		{
+			"url": "res/BigBg/vs_left1.png",
+			"type": "image",
+			"name": "vs_left1_png"
+		},
+		{
+			"url": "res/BigBg/vs_right1.png",
+			"type": "image",
+			"name": "vs_right1_png"
+		},
+		{
+			"url": "res/JSON/totalScore.json",
+			"type": "sheet",
+			"name": "totalScore_json",
+			"subkeys": "backHome_png,continueGame_png,endTotalScoreTitle_png,shareRecord_png,smallTotalScoreTitle_png,winner_png"
+		},
+		{
+			"url": "res/faceMsg/face_ske.json",
+			"type": "json",
+			"name": "face_ske_json"
+		},
+		{
+			"url": "res/faceMsg/face_tex.json",
+			"type": "json",
+			"name": "face_tex_json"
+		},
+		{
+			"url": "res/faceMsg/face_tex.png",
+			"type": "image",
+			"name": "face_tex_png"
+		},
+		{
+			"url": "res/turnCard/cardJson.json",
+			"type": "sheet",
+			"name": "cardJson2_json",
+			"subkeys": "black_10_png,black_11_png,black_12_png,black_13_png,black_1_png,black_2_png,black_3_png,black_4_png,black_5_png,black_6_png,black_7_png,black_8_png,black_9_png,cardBg_png,card_fore_png,red_10_png,red_11_png,red_12_png,red_13_png,red_1_png,red_2_png,red_3_png,red_4_png,red_5_png,red_6_png,red_7_png,red_8_png,red_9_png,suit_0_11_png,suit_0_12_png,suit_0_13_png,suit_0_big_png,suit_0_small_png,suit_1_11_png,suit_1_12_png,suit_1_13_png,suit_1_big_png,suit_1_small_png,suit_2_11_png,suit_2_12_png,suit_2_13_png,suit_2_big_png,suit_2_small_png,suit_3_11_png,suit_3_12_png,suit_3_13_png,suit_3_big_png,suit_3_small_png"
+		},
+		{
+			"url": "res/turnCard/turnCard_ske.json",
+			"type": "json",
+			"name": "turnCard_ske_json"
+		},
+		{
+			"url": "res/turnCard/turnCard_tex.json",
+			"type": "json",
+			"name": "turnCard_tex_json"
+		},
+		{
+			"url": "res/turnCard/turnCard_tex.png",
+			"type": "image",
+			"name": "turnCard_tex_png"
+		},
+		{
+			"url": "res/JSON/record.json",
+			"type": "sheet",
+			"name": "record_json",
+			"subkeys": "recordClose_png,recordbg2_png,recordbger2_png,zhanjimianban_png"
+		},
+		{
+			"url": "res/gameSet.png",
+			"type": "image",
+			"name": "gameSet_png"
+		},
+		{
+			"url": "res/yaoqing.png",
+			"type": "image",
+			"name": "yaoqing_png"
+		},
+		{
+			"url": "res/JSON/zhuozi.jpg",
+			"type": "image",
+			"name": "zhuozi_jpg"
+		},
+		{
+			"url": "res/downZhuozi.png",
+			"type": "image",
+			"name": "downZhuozi_png"
+		},
+		{
+			"url": "res/seatDownBtn.png",
+			"type": "image",
+			"name": "seatDownBtn_png"
+		},
+		{
+			"url": "res/JSON/game_tex.png",
+			"type": "image",
+			"name": "game_tex_png"
+		},
+		{
+			"url": "res/JSON/game_ske.json",
+			"type": "json",
+			"name": "game_ske_json"
+		},
+		{
+			"url": "res/JSON/game_tex.json",
+			"type": "json",
+			"name": "game_tex_json"
+		},
+		{
+			"url": "res/JSON/playerReady.png",
+			"type": "image",
+			"name": "playerReady_png"
+		},
+		{
+			"url": "res/dn_game_tip_box_.png",
+			"type": "image",
+			"name": "dn_game_tip_box__png"
+		}
+	]
+}

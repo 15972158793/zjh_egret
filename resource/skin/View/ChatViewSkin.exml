@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="750" height="1206">
+	<e:Rect id="chatRect" width="100%" height="100%" alpha="0"/>
+	<e:Group id="chatGroup" y="800" x="177">
+		<e:Image x="0" y="0" source="chatbg1_png"/>
+		<e:RadioButton id="textBtn" label="" y="9" selected="true" x="8.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="leftTitleBg1_png" source.down="leftTitleBg_png" scale9Grid="23,14,229,33"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="faceImg_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="faceBtn" label="" x="277" y="9" selected="false" width="265">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image height="100%" source="rightTitleBg1_png" source.down="rightTitleBg_png" scale9Grid="63,21,193,29"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="textImg_png"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:Scroller id="textScroller" height="260" y="71"  x="28">
+			<e:Group anchorOffsetY="0" height="341.85" width="500">
+				<e:Group x="-1.4210854715202004e-14" y="0" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text1" text="不好意思啊，我要离开一会儿" fontFamily="Microsoft YaHei" verticalAlign="middle" width="100%" x="10" size="24" textColor="0xffdaaa" verticalCenter="0" height="24"/>
+				</e:Group>
+				<e:Group x="9.999999999999986" y="10" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text2" text="不要吵了，不要吵了，专心玩游戏吧" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="19.999999999999986" y="20" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text3" text="不要走，决战到天亮" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="29.999999999999986" y="30" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text4" text="大家好，很高兴见到各位" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" width="100%" x="10" y="0" size="24" textColor="0xffdaaa" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="39.999999999999986" y="40" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text5" text="底牌亮出来，绝对吓死你" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="49.999999999999986" y="50" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text6" text="风水轮流转，底裤都输光了" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="59.999999999999986" y="60" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text7" text="和你合作真是太愉快了" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="69.99999999999999" y="70" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text8" text="交个朋友吧，能告诉我联系方法吗" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="79.99999999999999" y="80" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text9" text="竟然被看穿了，你真厉害" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="89.99999999999999" y="90" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text10" text="看我通杀全场，这些钱全是我的" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="99.99999999999999" y="90" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text11" text="快点儿啊，等得花儿都谢了" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="109.99999999999999" y="90" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text12" text="快点儿下注吧，一会儿就没机会了" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="119.99999999999999" y="90" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text13" text="你的牌打得也太好了" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="129.99999999999999" y="90" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text14" text="你是MM还是GG" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="139.99999999999999" y="90" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text15" text="我早就看穿你的牌了" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="149.99999999999999" y="90" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text16" text="再见了，我会想念大家的" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:Group x="159.99999999999999" y="90" height="40">
+					<e:Image x="0" source="contentBg_png" width="500" verticalCenter="0"/>
+					<e:Label id="text17" text="怎么又断线，网络怎么这么差呀" fontFamily="Microsoft YaHei" height="24" verticalAlign="middle" size="24" textColor="0xffdaaa" width="100%" x="10" y="0" verticalCenter="0"/>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Image id="faceBg" y="74" width="500" x="29" source="contentBg_png" scale9Grid="17,10,467,9" height="256" visible="false"/>
+		<e:Scroller id="faceScroller" width="500" height="247" y="77" x="30" visible="false">
+			<e:Group>
+				<e:Image id="face1" x="48" y="54" source="chatFace1_png"/>
+				<e:Image id="face2" x="58" y="64" source="chatFace2_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face3" x="68" y="74" source="chatFace3_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face4" x="78" y="84" source="chatFace4_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face5" x="88" y="94" source="chatFace5_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face6" x="98" y="104" source="chatFace6_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face7" x="108" y="114" source="chatFace7_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face8" x="118" y="124" source="chatFace8_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face9" x="128" y="134" source="chatFace9_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face10" x="138" y="144" source="chatFace10_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face11" x="148" y="154" source="chatFace11_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face12" x="158" y="164" source="chatFace12_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face13" x="168" y="174" source="chatFace13_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face14" x="178" y="184" source="chatFace14_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face15" x="188" y="194" source="chatFace15_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face16" x="198" y="204" source="chatFace16_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face17" x="208" y="214" source="chatFace17_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face18" x="218" y="224" source="chatFace18_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face19" x="228" y="234" source="chatFace19_png" scaleX="1" scaleY="1"/>
+				<e:Image id="face20" x="238" y="244" source="chatFace20_png" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:TileLayout horizontalGap="-2" verticalGap="-20"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

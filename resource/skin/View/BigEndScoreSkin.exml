@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BigEndScoreSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="750" height="1206">
+	<e:Rect width="100%" height="100%" alpha="0.8"/>
+	<e:Group x="0" y="30" width="750" height="1088">
+		<e:Image id="bg" source="totalScoreBg_png" x="0" width="750" scale9Grid="150,161,444,815" height="1088"/>
+		<e:Image y="66" source="endTotalScoreTitle_png" horizontalCenter="0"/>
+		<e:Button id="backHomeBtn" label="" x="94" y="983">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="173" height="80">
+				<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="yellowBtn2_png" width="173" height="80"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="backHome_png"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="shareBtn" label="" x="445" y="983">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="173" height="80">
+				<e:Image height="80" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="greenBtn2_png" width="173"/>
+	<e:Image source="shareRecord_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:List id="totalSocreList" itemRendererSkinName="BigSinEndScoreSkin" scaleX="1" scaleY="1" y="194" horizontalCenter="0">
+			<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+			<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+		<e:Group y="141.99999999999997" horizontalCenter="0" width="620">
+			<e:Label text="12人三张牌" y="0" textColor="0xffd9a7" fontFamily="SimHei" size="28" left="0"/>
+			<e:Label id="roomId" text="房间号：" y="0" textColor="0xFFD9A7" fontFamily="SimHei" size="28" x="240"/>
+			<e:Label id="gameRound" text="轮数：" y="0" textColor="0xFFD9A7" fontFamily="SimHei" size="28" right="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

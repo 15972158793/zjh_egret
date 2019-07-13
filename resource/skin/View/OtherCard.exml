@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="otherCard" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="otherCardGroup">
+		<e:Image source="xiaopaibeimian_png"/>
+		<e:Image source="xiaopaibeimian_png" x="10" y="10"/>
+		<e:Image source="xiaopaibeimian_png" x="20" y="20"/>
+		<e:layout>
+			<e:HorizontalLayout gap="-30"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="otherTipsGroup" verticalCenter="0" height="100%" width="100%">
+		<e:Image id="otherCardTips" scaleX="1" scaleY="1" source="diajikanpaiyikanpai_png" verticalCenter="0" x="-4"/>
+	</e:Group>
+</e:Skin>

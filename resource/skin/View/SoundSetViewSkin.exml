@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SoundSetViewSkin" width="750" height="1206" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="soundSetRect" width="100%" height="100%" alpha="0.8"/>
+	<e:Group id="soundSetGroup" y="337" horizontalCenter="0" width="640">
+		<e:Image y="0" horizontalCenter="0" source="chatbg1_png"/>
+		<e:Image y="-21" source="setTitle_png" horizontalCenter="0"/>
+		<e:Image x="205" y="114" source="musicImg_png"/>
+		<e:Image x="205" y="217" source="effectImg_png"/>
+		<e:Button id="closeBtn" label="" x="552" scaleX="1" scaleY="1" y="-30">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="88" height="88">
+				<e:Image width="88" height="88" source="closeBtn_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:ToggleSwitch id="musicBtn" label="" x="330" y="99" selected="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ON_png" source.down="OFF_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="effecBtn" label="" x="330" y="202" selected="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ON_png" source.down="OFF_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+</e:Skin>

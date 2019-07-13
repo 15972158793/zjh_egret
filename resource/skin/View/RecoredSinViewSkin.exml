@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecoredSinViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="500" height="80">
+		<e:Image bottom="0" horizontalCenter="0"  width="485" source="tuoyuan_png"/>
+		<e:Group id="sinGroup" verticalCenter="0" visible="false">
+			<e:Label text="" name="nickName" width="150" textAlign="center" verticalAlign="middle" fontFamily="SimHei" size="26" height="26" verticalCenter="0" textColor="0x53290c" y="19" scaleX="1" scaleY="1" x="30"/>
+			<e:Group id="cardGroup" x="229" y="0">
+				<e:Image scaleX="0.54" scaleY="0.54"  source="cardBg_png"/>
+				<e:Image scaleX="0.54" scaleY="0.54" x="10" y="10"  source="cardBg_png"/>
+				<e:Image scaleX="0.54" scaleY="0.54" x="20" y="20"  source="cardBg_png"/>
+				<e:layout>
+					<e:HorizontalLayout gap="-15" />
+				</e:layout>
+			</e:Group>
+			<e:Label text="" x="410" name="score" fontFamily="SimHei" size="26"  textColor="0x53290c" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="ownGroup">
+			<e:Label text="" name="ownNickName" width="150" textAlign="center" verticalAlign="middle" fontFamily="SimHei" size="26" height="26" verticalCenter="0" textColor="0x53290C" y="19" scaleX="1" scaleY="1" x="30"/>
+			<e:Group id="ownCardGroup" x="229" y="0">
+			<e:Image scaleX="0.54" scaleY="0.54" source="cardBg_png"/>
+			<e:Image scaleX="0.54" scaleY="0.54" x="10" y="10" source="cardBg_png"/>
+			<e:Image scaleX="0.54" scaleY="0.54" x="20" y="20" source="cardBg_png"/>
+			<e:layout>
+				<e:HorizontalLayout gap="-15"/>
+			</e:layout>
+			</e:Group>
+			<e:Label text="" x="410" name="ownScore" fontFamily="SimHei" size="26" textColor="0x53290C" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

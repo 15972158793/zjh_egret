@@ -1,0 +1,9 @@
+{"file":"fallowForever.png","frames":{
+"effect1_png":{"x":168,"y":0,"w":165,"h":139,"offX":1,"offY":0,"sourceW":166,"sourceH":139},
+"effect2_png":{"x":0,"y":0,"w":166,"h":139,"offX":0,"offY":0,"sourceW":166,"sourceH":139},
+"effect3_png":{"x":335,"y":0,"w":163,"h":139,"offX":0,"offY":0,"sourceW":166,"sourceH":139},
+"effect4_png":{"x":164,"y":141,"w":163,"h":133,"offX":0,"offY":6,"sourceW":166,"sourceH":139},
+"effect5_png":{"x":0,"y":141,"w":162,"h":134,"offX":0,"offY":5,"sourceW":166,"sourceH":139},
+"effect6_png":{"x":164,"y":276,"w":165,"h":129,"offX":1,"offY":7,"sourceW":166,"sourceH":139},
+"effect7_png":{"x":331,"y":276,"w":162,"h":124,"offX":3,"offY":6,"sourceW":166,"sourceH":139},
+"effect8_png":{"x":329,"y":141,"w":161,"h":133,"offX":5,"offY":6,"sourceW":166,"sourceH":139}}}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MenuViewSkin" width="750" height="1206" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="menuRect" width="100%" height="100%" alpha="0"/>
+	<e:Group id="menuGroup" y="160" x="-290">
+		<e:Image x="0" y="0" source="menuBg1_png" scale9Grid="56,44,177,206" height="655"/>
+		<e:Image y="100" source="menuBg2_png" horizontalCenter="0"/>
+		<e:Image y="174" source="menuBg2_png" horizontalCenter="0"/>
+		<e:Image y="250" source="menuBg2_png" horizontalCenter="0"/>
+		<e:Image y="328" source="menuBg2_png" horizontalCenter="0.5"/>
+		<e:Image y="408" source="menuBg2_png" horizontalCenter="0.5"/>
+		<e:Image y="488" source="menuBg2_png" horizontalCenter="0.5"/>
+		<e:Image y="560" source="menuBg2_png" horizontalCenter="0.5"/>
+		<e:Group horizontalCenter="0" y="28">
+			<e:Button id="shareGame" label="" y="505" x="30">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="187" height="67">
+					<e:Image source="shareGame_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" width="187" height="67"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="gameTop" label="" y="515" x="40">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="187" height="67">
+					<e:Image width="187" height="67" source="gameTopp_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="gameWay" label="" y="505" x="30">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="187" height="67">
+					<e:Image source="gameWay_png" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0" width="187" height="67"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="lookPlayerBtn" label="" y="505" x="30">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="187" height="67">
+					<e:Image width="187" height="67" source="lookPlayerBtn_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="standUpBtn" label="" y="495" x="20">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="187" height="67">
+					<e:Image width="187" height="67" source="standUp1_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="backRoom" label="" y="535" x="8.48">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="187" height="67">
+					<e:Image width="187" height="67" source="backRoom_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="dissolveGame" label="" y="525" x="-1.52">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="187" height="67" width.down="187" height.down="67">
+					<e:Image width="187" height="67" source="jiesanRoom_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="gameSet" label="" y="535" x="8.48">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gameSet_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+			<e:VerticalLayout gap="10"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="gameWayGroup" height="100%" x="0" width="100%" visible="false">
+		<e:Group verticalCenter="0" horizontalCenter="0" width="750">
+			<e:Image height="1076" scale9Grid="299,70,8,178" source="playWayBg_png" verticalCenter="0" horizontalCenter="0"/>
+			<e:Rect fillColor="0x807e80" alpha="0.8" width="660" height="1016" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image y="-19" source="playWayTitle_png" horizontalCenter="0"/>
+			<e:Image horizontalCenter="0" source="playWayContent_png" y="34"/>
+		<e:Button id="playerWayCloseBtn" label="" y="-29" x="664">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="88" height="88">
+				<e:Image width="88" height="88" source="closeBtn_png" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	</e:Group>
+</e:Skin>

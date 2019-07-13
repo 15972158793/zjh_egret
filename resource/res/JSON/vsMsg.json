@@ -1,0 +1,7 @@
+{"file":"vsMsg.png","frames":{
+"failure_img_png":{"x":911,"y":0,"w":105,"h":117,"offX":0,"offY":1,"sourceW":107,"sourceH":118},
+"headRectImg_png":{"x":0,"y":395,"w":153,"h":188,"offX":0,"offY":0,"sourceW":153,"sourceH":188},
+"p_png":{"x":0,"y":0,"w":393,"h":393,"offX":0,"offY":0,"sourceW":393,"sourceH":393},
+"victory_png":{"x":899,"y":246,"w":118,"h":120,"offX":1,"offY":1,"sourceW":119,"sourceH":121},
+"vs_left_png":{"x":395,"y":0,"w":514,"h":244,"offX":0,"offY":4,"sourceW":518,"sourceH":250},
+"vs_right_png":{"x":395,"y":246,"w":502,"h":244,"offX":2,"offY":3,"sourceW":504,"sourceH":250}}}

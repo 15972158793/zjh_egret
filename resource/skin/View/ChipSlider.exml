@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChipSlider" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="750" height="1206">
+	<e:Rect id="close" width="100%" height="100%" alpha="0.5" anchorOffsetY="0"/>
+	<e:VSlider id="vSlider" y="463" value="0" pendingValue="0" horizontalCenter="0"/>
+	<e:Button id="addSure" label="" y="817" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="134" height="73">
+				<e:Image width="134" height="73" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="greenBtn2_png"/>
+				<e:Image id="okImg" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter.down="0" verticalCenter.down="0" source="sureBtn_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+</e:Skin>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginViewSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="move">
+			<tween:TweenItem target="{tips1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-20}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="100"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{tips2}">
+				<tween:Wait duration="100"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-20}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{tips3}">
+				<tween:Wait duration="250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-20}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{tips4}">
+				<tween:Wait duration="400"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-20}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{tips5}">
+				<tween:Wait duration="550"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-20}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{tips6}">
+				<tween:Wait duration="700"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-20}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{tips7}">
+				<tween:Wait duration="850"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-20}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image width="1207" height="100%" source="zhuozi_jpg"/>
+	<e:Button id="creatRoom" label="创建房间" x="610" y="220"/>
+	<e:Button id="joinRoom" label="加入房间" x="610" y="310"/>
+    <e:EditableText id="JoinRoomLabel" width="139" height="43" x="410" y="327" prompt="输入房号" textColor="0xfc0202" promptColor="0xfc0202"/>
+	<e:Group id="joinGameTipsGroup" y="567" horizontalCenter="0">
+		<e:Label id="tips1" text="正" x="0" y="0" fontFamily="SimHei"/>
+		<e:Label id="tips2" text="在" x="36" fontFamily="SimHei"/>
+		<e:Label id="tips3" text="进" x="72" fontFamily="SimHei"/>
+		<e:Label id="tips4" text="入" x="108" fontFamily="SimHei"/>
+		<e:Label id="tips5" text="游" x="144" fontFamily="SimHei"/>
+		<e:Label id="tips6" text="戏" x="180" fontFamily="SimHei"/>
+		<e:Label id="tips7" text="..." x="216" fontFamily="SimHei"/>
+	</e:Group>
+</e:Skin>

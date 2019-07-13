@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BigSinEndScoreSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="700" height="60">
+	<e:Group id="totalGroup" x="0" width="700" height="60">
+		<e:Image y="54" source="tuoyuan_png" width="700"/>
+		<e:Image y="5" name="headImg" x="60" width="50" height="50" source=""/>
+		<e:Rect id="headMask" width="50" height="50" x="60" y="5" alpha="0" ellipseWidth="180" ellipseHeight="180"/>
+		<e:Image y="-13" x="36" name="rank" source="winner_png" scaleX="0.7" scaleY="0.7" visible="false"/>
+		<e:Label text="昵称" fontFamily="SimHei" width="100" size="24" textAlign="center" name="nickName" x="150" height="24" verticalCenter="0" textColor="0xd9d9d9"/>
+		<e:Label text="胜场：" x="330" verticalCenter="0" fontFamily="SimHei" size="24" textColor="0xd9d9d9"/>
+		<e:Label text="总成绩" x="530" scaleX="1" scaleY="1" verticalCenter="0" fontFamily="SimHei" size="24" textColor="0xd9d9d9"/>
+		<e:Label text="" fontFamily="Microsoft YaHei" size="24" textAlign="center" width="50" name="roundWin" verticalCenter="0" x="390" textColor="0xd9d9d9" height="24"/>
+		<e:Label id="totalScore" text="+99" y="15" x="612" fontFamily="SimHei" textColor="0xff6565"/>
+		<e:Group x="23" y="195" visible="false">
+			<e:Label text="局数" y="0" fontFamily="Microsoft YaHei" size="24" textAlign="center" x="0" textColor="0xeae25e" width="50"/>
+			<e:Label text="胜利" y="0" fontFamily="Microsoft YaHei" size="24" textAlign="center" x="0" textColor="0xeae25e" width="50"/>
+			<e:Label text="失败" y="0" fontFamily="Microsoft YaHei" size="24" textAlign="center" x="0" textColor="0x7c7794" width="50"/>
+			<e:layout>
+			<e:VerticalLayout gap="10"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="scoreGroup" x="80" y="195" visible="false">
+			<e:Label text="10" y="0" fontFamily="Microsoft YaHei" size="24" textAlign="center" x="0" textColor="0xEAE25E" width="50" name="round"/>
+			<e:Label text="5" y="0" fontFamily="Microsoft YaHei" size="24" textAlign="center" x="0" textColor="0x7C7794" width="50" name="roundLose"/>
+			<e:layout>
+			<e:VerticalLayout gap="10"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

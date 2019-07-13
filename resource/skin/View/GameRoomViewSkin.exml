@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameRoomViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*" width="750" height="1206">
+	<w:Config id="15f5cb8d3b6"/>
+	<w:Declarations>
+		<tween:TweenGroup id="fallowMove">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="300"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="450"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="600"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image4}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="750"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image5}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="900"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image6}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1050"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="startMoive">
+			<tween:TweenItem target="{label2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label3}">
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label4}">
+				<tween:Wait duration="300"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label5}">
+				<tween:Wait duration="450"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label6}">
+				<tween:Wait duration="600"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label7}">
+				<tween:Wait duration="750"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label}">
+				<tween:Wait duration="900"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label0}">
+				<tween:Wait duration="1050"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{label1}">
+				<tween:Wait duration="1200"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-10}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="150"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="zhuozi_jpg"/>
+	<e:Image source="downZhuozi_png" bottom="0"/>
+	<!--<e:Image y="-127" alpha="0.5" width="750" anchorOffsetY="0" height="1330" source="ex_jpg" visible="false"/>-->
+	<e:Group id="baoziGroup" touchThrough="true" horizontalCenter="0" y="147" locked="true" visible="false">
+		<e:Image id="baoziImg" source="boomImg_png" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group  y="109" x="2">
+		<e:Rect width="125" height="54" ellipseWidth="20" ellipseHeight="20" alpha="0.8"/>
+		<e:Label text="房号：" y="0" size="20" fontFamily="SimHei" textColor="0xa7debc" textAlign="center" verticalAlign="middle"/>
+		<e:Label id="roomNum" text="000000" x="57" y="0" size="20" fontFamily="SimHei" width="100" height="28" textColor="0xa7debc" textAlign="left"/>
+		<e:Label text="底分：" y="26" size="20" fontFamily="SimHei" textColor="0xa7debc" verticalAlign="middle"/>
+		<e:Label id="injectNum" text="1" x="57" y="26" size="20" fontFamily="SimHei" width="50" height="28" textAlign="left" textColor="0xa7debc"/>
+	</e:Group>
+	<e:Group y="328" x="309">
+		<e:Label text="局数：" y="0" size="28" fontFamily="SimHei" textAlign="center" verticalAlign="middle" textColor="0x1c3b23" bold="true"/>
+		<e:Label id="surplusTime" text="1/10" x="73" y="0" size="28" fontFamily="SimHei" height="28" textAlign="left" textColor="0x1c3b23" bold="true"/>
+	</e:Group>
+	<e:Group y="367" horizontalCenter="0">
+		<e:Image source="totalInjectBg_png"/>
+		<e:Label text="总注" width="80" textAlign="center" horizontalCenter="0" fontFamily="SimHei" size="26" y="4" textColor="0xfacf73"/>
+		<e:Label id="injectLable" text="100" width="80" textAlign="center" horizontalCenter="0" textColor="0xfacf73" fontFamily="SimHei" size="26" y="32"/>
+	</e:Group>
+	<e:Group x="639" y="8" touchThrough="true">
+		<e:Button id="recordBtn" label="">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="98" height="101">
+				<e:Image width="98" height="101" source="recordBtn_png" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<!--<e:Button id="recoreBtn" label="" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="80" height="77">
+				<e:Image height="77" source="icon_page_record_png" width="80" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>-->
+	</e:Group>
+	<e:Group id="chatGroup" x="657" y="1138" locked="true">
+		<e:Button id="chatBtn" label="" x="-71" y="92" scaleX="0.7" scaleY="0.7">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="96" height="98">
+				<e:Image width="96" height="98" source="chatBtn_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<!--<e:Button id="voiceBtn" label="" y="88">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="80" height="77">
+				<e:Image width="80" height="77" source="icon_page_voice_png" scaleX.down="0.9" scaleY.down="0.9" x.down="4" y.down="4" x="0" y="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>-->
+		<e:layout>
+			<e:HorizontalLayout gap="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="menuBtn" label="" x="11" y="8">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" height="101" width="98">
+			<e:Image source="menuBtn_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" width="98" height="101"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="allplayerHeadGroup" x="0" touchThrough="true">
+		<ns1:PlayerView id="player1" y="545" skinName="playerSkin" x="629.9999999999999"/>
+		<ns1:PlayerView id="player2" y="265" skinName="playerSkin" x="629.9999999999999"/>
+		<ns1:PlayerView id="player3" y="20" skinName="playerSkin" horizontalCenter="0"/>
+		<ns1:PlayerView id="player4" y="265" skinName="playerSkin" x="0"/>
+		<ns1:PlayerView id="player5" y="545" skinName="playerSkin" x="0"/>
+		<ns1:PlayerView id="player6" y="1067" skinName="playerSkin" x="20"/>
+	</e:Group>
+	<!--<e:Group id="rightVoiceGroup" x="1026" y="461" touchThrough="true" visible="false">
+		<e:Image source="voice_alert1_png"/>
+		<e:Image source="voice_xianshi_png" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="leftVoiceGroup" x="55" y="333" touchThrough="true" visible="false">
+		<e:Image source="voice_alert2_png"/>
+		<e:Image source="voice_xianshi_png" horizontalCenter="0" y="18"/>
+	</e:Group>-->
+	<e:Group id="myCardTypeGroup" y="930" horizontalCenter="0">
+		<e:Image id="myCardTypeBg" source="juxing_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Image id="myCardType" horizontalCenter="0" verticalCenter="0" source="type1_png" visible="false"/>
+		<e:Image id="myStateBg" source="juxing_png" horizontalCenter="0" x="10" y="-45" visible="false"/>
+		<e:Image id="myState" horizontalCenter="0" source="type1_png" y="-45" visible="false"/>
+	</e:Group>
+	<e:Group id="allPlayerInjectChipGroup" x="120" y="115" touchThrough="true" visible="false">
+		<e:Group id="playerChipNumGroup1" x="360" y="525" visible="false">
+			<e:Image y="0" source="tu1_png" x="0"/>
+			<e:Label id="Player1ChipNums1" text="" x="35"  y="10" size="24" textAlign="center" width="70"/>
+		</e:Group>
+		<e:Group id="playerChipNumGroup2" x="360" y="252" visible="false">
+			<e:Image y="0" source="tu1_png" x="0"/>
+			<e:Label id="Player1ChipNums2" text="" x="35"  y="10" size="24" textAlign="center" width="70"/>
+		</e:Group>
+		<e:Group id="playerChipNumGroup3" x="190" y="107" visible="false">
+			<e:Image y="0" source="tu1_png" x="0"/>
+			<e:Label id="Player1ChipNums3" text="" x="35"  y="10" size="24" textAlign="center" width="70"/>
+		</e:Group>
+		<e:Group id="playerChipNumGroup4" x="20" y="252" visible="false">
+			<e:Image y="0" source="tu1_png" x="0"/>
+			<e:Label id="Player1ChipNums4" text="" x="40" y="10" size="24" textAlign="center" width="70"/>
+		</e:Group>
+		<e:Group id="playerChipNumGroup5" x="20" y="525" visible="false">
+			<e:Image y="0" source="tu1_png" x="0"/>
+			<e:Label id="Player1ChipNums5" text="" x="35"  y="10" size="24" textAlign="center" width="70"/>
+		</e:Group>
+		<e:Group id="playerChipNumGroup6" x="190" y="853" visible="false">
+			<e:Image y="0" source="tu1_png" x="0"/>
+			<e:Label id="Player1ChipNums6" text="" x="35"  y="10" size="24" textAlign="center" width="70"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="myCardGroup" y="1008" anchorOffsetY="0" horizontalCenter="0">
+		<e:Group id="otherCard6" width="270" y="0" height="131" x="0"/>
+		<e:Image id="otherCardTips6" source="lookCardTips_png" y="48" horizontalCenter="0" visible="false"/>
+		<e:Rect id="turnCardRect" width="100%" height="100%" alpha="0"/>
+	</e:Group>
+	<e:Group id="otherCardGroup1" x="470" y="560" anchorOffsetX="0" anchorOffsetY="0" width="150" height="80">
+		<e:Image id="boomTips1" source="boomLightImg_png" scale9Grid="33,33,34,33" x="-23" y="-25" width="196" height="130" visible="false"/>
+		<e:Group id="otherCard1" width="150" height="80">
+		</e:Group>
+		<e:Image id="otherCardTips1" x="15" source="diajikanpaiyikanpai_png" verticalCenter="0" visible="false"/>
+	</e:Group>
+	<e:Group id="otherCardGroup2" x="470" y="285" anchorOffsetX="0" anchorOffsetY="0" width="150" height="80">
+		<e:Image id="boomTips2" source="boomLightImg_png" scale9Grid="33,33,34,33" x="-23" y="-25" width="196" height="130" visible="false"/>
+		<e:Group id="otherCard2" scaleX="1" scaleY="1" width="150" height="80">
+		</e:Group>
+		<e:Image id="otherCardTips2" source="diajikanpaiyikanpai_png" scaleX="1" scaleY="1" y="20" x="15" visible="false"/>
+	</e:Group>
+	<e:Group id="otherCardGroup3" x="300" y="150" anchorOffsetX="0" anchorOffsetY="0" width="150" height="80">
+		<e:Image id="boomTips3" source="boomLightImg_png" scale9Grid="33,33,34,33" x="-23" y="-25" width="196" height="130" visible="false"/>
+		<e:Group id="otherCard3" scaleX="1" scaleY="1" width="150" height="80">
+		</e:Group>
+		<e:Image id="otherCardTips3" source="diajikanpaiyikanpai_png" scaleX="1" scaleY="1" y="20" x="15" visible="false"/>
+	</e:Group>
+	<e:Group id="otherCardGroup4" x="135" y="285" anchorOffsetX="0" anchorOffsetY="0" width="150" height="80">
+		<e:Image id="boomTips4" source="boomLightImg_png" scale9Grid="33,33,34,33" x="-23" y="-25" width="196" height="130" visible="false"/>
+		<e:Group id="otherCard4" scaleX="1" scaleY="1" width="150" height="80">
+		</e:Group>
+		<e:Image id="otherCardTips4" source="diajikanpaiyikanpai_png" scaleX="1" scaleY="1" y="20" x="15" visible="false"/>
+	</e:Group>
+	<e:Group id="otherCardGroup5" x="135" y="560" anchorOffsetX="0" anchorOffsetY="0" width="150" height="80">
+		<e:Image id="boomTips5" source="boomLightImg_png" scale9Grid="33,33,34,33" x="-23" y="-25" width="196" height="130" visible="false"/>
+		<e:Group id="otherCard5" scaleX="1" scaleY="1" width="150" height="80"/>
+		<e:Image id="otherCardTips5" source="diajikanpaiyikanpai_png" scaleX="1" scaleY="1" y="20" x="15" visible="false"/>
+	</e:Group>
+	<e:Group id="chipInjectGroup" width="150" height="250" y="450" x="300">
+	</e:Group>
+	<e:Group id="gameStartBtnGroup" x="263.00000000000006" y="770">
+		<e:Group id="startDrgonGroup"/>
+		<e:Group id="startMovieGroup" y="22" horizontalCenter="0" visible="false">
+			<e:Label id="label2" text="等" x="0" y="0" fontFamily="SimHei" textColor="0xffdaa8" visible="false"/>
+			<e:Label id="label3" text="待" x="29.34" fontFamily="SimHei" textColor="0xFFDAA8" visible="false"/>
+			<e:Label id="label4" text="其" x="58.96" fontFamily="SimHei" textColor="0xFFDAA8" visible="false"/>
+			<e:Label id="label5" text="他" x="86.64" fontFamily="SimHei" textColor="0xFFDAA8" visible="false"/>
+			<e:Label id="label6" text="玩" x="117.32" fontFamily="SimHei" textColor="0xFFDAA8" visible="false"/>
+			<e:Label id="label7" text="家" x="148.99" fontFamily="SimHei" textColor="0xFFDAA8" visible="false"/>
+			<e:Label id="label" text="•" x="179" y="0" textColor="0xffdaa8" visible="false"/>
+			<e:Label id="label0" text="•" x="190" y="0" textColor="0xffdaa8" visible="false"/>
+			<e:Label id="label1" text="•" x="201" y="0" textColor="0xffdaa8" visible="false"/>
+		</e:Group>
+		<e:Button id="shareFriendBtn" label="" x="0" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="208" height="84">
+				<e:Image source="yellowBtn2_png" width="208" height="84" scale9Grid="36,35,104,1" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="shareFriend_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="standUpBtn" label="" y="112" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="208" height="84">
+				<e:Image width="208" height="84" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="greenBtn2_png" scale9Grid="37,35,101,1"/>
+				<e:Image scaleX.down="0.95" scaleY.down="0.95" source="standUp_png" horizontalCenter="0" y="20"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="seatDownBtn" label="" x="0" scaleX="1" scaleY="1" y="66" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="208" height="84">
+				<e:Image source="greenBtn2_png" width="208" height="84" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image horizontalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="seatDownBtn_png" scaleX="1.2" scaleY="1.2" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<!--<e:Button id="readyBtnBtn" label="" y="220" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="208" height="84">
+				<e:Image width="208" height="84" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95" source="greenBtn2_png" scale9Grid="37,35,101,1"/>
+				<e:Image horizontalCenter="0" verticalCenter="0" source="readyImg_png" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>-->
+		<e:Button id="startBtn" label="" x="0" scaleX="1" scaleY="1" y="150" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="208" height="84">
+				<e:Image source="greenBtn2_png" width="208" height="84" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="startGame_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.95" scaleY.down="0.95"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="fallowMoveGroup" x="579" y="794" touchThrough="true" scaleX="0.9" scaleY="0.8" visible="false">
+		<e:Image id="image" x="0" source="effect1_png" y="0"/>
+		<e:Image id="image0" x="0" y="0" source="effect2_png"/>
+		<e:Image id="image1" source="effect3_png"/>
+		<e:Image id="image2" source="effect4_png"/>
+		<e:Image id="image3" source="effect5_png"/>
+		<e:Image id="image4" source="effect6_png"/>
+		<e:Image id="image5" source="effect7_png"/>
+		<e:Image id="image6" source="effect8_png"/>
+	</e:Group>
+	<e:Group id="InjectBtnGroup" width="750" y="817" visible="false">
+		<e:Button id="CancelInjectBtn" label="" touchEnabled="false" alpha="0.5" x="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="134" height="73">
+				<e:Image width="134" height="73" source="yellowBtn2_png" scaleX.down="0.95" scaleY.down="0.95" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="cancelCardImg_png" width="56" height="29" horizontalCenter="0" y="19"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="VSInjectBtn" label="" x="168" touchEnabled="false" alpha="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="73">
+			<e:Image width="134" height="73" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="yellowBtn2_png" scale9Grid="49,34,73,2"/>
+			<e:Image source="vsCardImg_png" scaleX.down="0.9" scaleY.down="0.9" width="55" height="29" horizontalCenter="0" y="20"/>
+	<e:Label id="labelDisplay" text="" x="28" y="36"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<!--<e:Button id="lookCardBtn" label="" x="239.99" touchEnabled="true" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="125" height="104">
+			<e:Image width="125" height="104" source="btn3_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="lookCardImg_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>-->
+		<e:Button id="addInjectBtn" label="" x="309" touchEnabled="false" name="add" alpha="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="73">
+			<e:Image width="134" height="73" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="greenBtn2_png" scale9Grid="69,35,34,1"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="addInjectImg_png" scaleX.down="0.9" scaleY.down="0.9" width="56" height="29"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="followInjectBtn" label="" x="447">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="73">
+			<e:Image width="134" height="73" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" source="greenBtn2_png" scale9Grid="68,35,34,1"/>
+			<e:Image source="fallowInjectImg_png" x="17" scaleX.down="0.9" scaleY.down="0.9" width="56" height="29" y="19"/>
+			<e:Label id="labelDisplay" size="29" fontFamily="SimHei" text="100" verticalAlign="middle" x="64" width="60" textAlign="center" bold="true" scaleX.down="0.9" scaleY.down="0.9" height="29" y="18.48"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="followInjectBtn1" label="" x="580" touchEnabled="true" width="149">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="134" height="73">
+			<e:Image width="134" height="73" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" source="greenBtn2_png"/>
+			<e:Image horizontalCenter="0" verticalCenter="0" source="fallowImg_png" scaleX.down="0.9" scaleY.down="0.9" width="83" height="29"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="VSGroup" x="0" width="100%" height="100%" touchThrough="true" visible="false">
+		<e:Rect id="VSRect" width="100%" height="100%" alpha="0.5"/>
+		<e:Group x="0" height="500" width="750" touchThrough="true" verticalCenter="0">
+			<e:Group id="leftGroup" touchThrough="true" x="-520" height="400">
+				<e:Image id="vsLeft" y="0" x="0" source="vs_left_png"/>
+				<e:Image id="winOrLoseLeftImg" y="62" source="victory_png" x="60"/>
+			</e:Group>
+			<e:Group id="rightGroup" x="750" y="180" width="650" touchThrough="true">
+				<e:Image id="vsRight" y="0" source="vs_right_png"/>
+				<e:Image id="winOrLoseRightImg" y="70" source="failure_img_png" x="340"/>
+			</e:Group>
+			<e:Group x="220" y="55">
+				<e:Image y="-23" x="-10" source="headRectImg_png"/>
+				<!--<e:Image id="vsHeadImgLeft" x="0" y="0" source="playimg_png"/>-->
+				<e:Label id="nickNameLeft" text="神仙姐姐" x="4" y="115" size="24" width="100" height="24" textColor="0xefd065" fontFamily="SimHei" visible="false"/>
+			</e:Group>
+			<e:Group x="397" y="240">
+				<e:Image y="-28" x="-20" scaleX="1" scaleY="1" source="headRectImg_png"/>
+				<!--<e:Image id="vsHeadImgRight" x="8" y="0" source="playimg_png"/>-->
+				<e:Label id="nickNameRight" text="咸蛋超人" y="107" size="24" width="100" height="24" x="8" visible="false"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="vsImg" y="1170" horizontalCenter="0" source="p_png"/>
+	</e:Group>
+	<e:Group id="chooseVsPlayerGroup" width="100%" height="100%" touchThrough="true" visible="false">
+		<e:Rect id="chooseVsRect" width="100%" height="100%" alpha="0.5" strokeColor="0xbab6b6"/>
+		<e:Image id="VSRect1" x="460" y="545" source="VsChooseRect_png" scale9Grid="34,18,211,108" scaleY="0.7"/>
+		<e:Image id="VSRect2" x="460" y="270" source="VsChooseRect_png" scale9Grid="34,18,211,108" scaleY="0.7"/>
+		<e:Image id="VSRect3" x="302" y="225" source="VsChooseRect_png" rotation="-90" scale9Grid="34,27,211,83" scaleX="0.8"/>
+		<e:Image id="VSRect4" x="15" y="270" source="VsChooseRect_png" scaleY="0.7" scale9Grid="34,30,211,78"/>
+		<e:Image id="VSRect5" x="15" y="545" source="VsChooseRect_png" scale9Grid="34,18,211,108" scaleY="0.7"/>
+		<e:Label text="请选择比牌玩家" x="283" y="782" fontFamily="SimHei" size="27"/>
+		<e:Image id="jiantou1" x="455" y="617.6" source="VSJiantou_png" rotation="180"/>
+		<e:Image id="jiantou2" x="455" y="343.68" rotation="180" source="VSJiantou_png"/>
+		<e:Image id="jiantou3" x="401" y="230" source="VSJiantou_png" rotation="90"/>
+		<e:Image id="jiantou4" x="300" y="295.68" source="VSJiantou_png"/>
+		<e:Image id="jiantou5" x="300" y="568.6" source="VSJiantou_png"/>
+	</e:Group>
+	<e:Group id="ownChatGroup" y="1090" x="109" touchThrough="true" visible="false">
+		<e:Image id="ownChatBg" x="243" source="chatPopBg1_png" scaleX="-1"/>
+		<e:Label id="ownChatText" text="快点儿啊，等得花儿都谢了" size="21" x="20" fontFamily="SimHei" textColor="0xffffff" width="210" y="45"/>
+		<e:Group id="ownChatGifGroup" y="-30" x="-67"/>
+	</e:Group>
+	<e:Group id="dissolveNumTipsGroup" y="114" horizontalCenter="0" visible="false">
+		<e:Image source="comeinTips_png" width="331" height="40"/>
+		<e:Label id="peopleNum" text="1" textColor="0xff0000" verticalCenter="0" x="15"/>
+		<e:Label text="人已经同意解散房间~" fontFamily="Microsoft YaHei" verticalCenter="0" x="38"/>
+	</e:Group>
+	<e:Group id="roomTipsGroup" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Image x="0" y="0" source="comeinTips_png" scaleX="1.2"/>
+		<e:Group y="10" horizontalCenter="0">
+			<e:Label text="等待其他玩家继续" fontFamily="SimHei" size="23" x="0" y="1"/>
+			<e:Label id="startLeftTime" text="5" x="202" y="0" size="23" textColor="0xffb746" fontFamily="SimHei"/>
+			<e:Label text="秒后自动开始" x="212" y="10" size="23" textColor="0xffffff" fontFamily="SimHei"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Label id="nickName" text="我是大浪bi" x="0" y="0" size="23" fontFamily="SimHei" textColor="0xffb746"/>
+			<e:Label id="tipsRoom" text="加入房间" x="10" y="10" size="23" fontFamily="SimHei"/>
+			<e:layout>
+				<e:HorizontalLayout gap="10"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

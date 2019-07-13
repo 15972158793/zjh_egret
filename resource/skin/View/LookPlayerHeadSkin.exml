@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LookPlayerHeadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="lookPlayerHeadInfoGroup" height="112" width="90">
+		<e:Label text="" textColor="0x53290c" size="22" top="0" width="90" textAlign="center" name="nickName" height="22" fontFamily="SimHei"/>
+		<e:Image width="90" height="90" y="22" name="headImg"/>
+		<e:Rect id="headMask" width="90" height="90" y="22" ellipseWidth="180" ellipseHeight="180"/>
+	</e:Group>
+</e:Skin>

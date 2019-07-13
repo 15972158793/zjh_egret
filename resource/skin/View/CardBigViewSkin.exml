@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardBigViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="109" height="148">
+<e:Image id="bg" horizontalCenter="0" verticalCenter="0" source="card_fore_png"/>
+	<e:Image id="cardSmallSuit" x="17" y="56" source="suit_2_small_png"/>
+	<e:Image id="cardBigSuit" right="11" bottom="13" source="suit_2_big_png"/>
+	<e:Image id="cardNum" y="10" x="10" source="red_10_png"/>
+	<!--<e:Group id="cardDW" touchEnabled="false" touchChildren="false" scaleX="0.63" scaleY="0.63">
+		<e:Image source="bigcardbg1_png"/>
+		<e:Image source="big_big_joker_png" bottom="0" right="0"/>
+		<e:Image y="14" source="red_joker_png" left="8"/>
+	</e:Group>
+	<e:Group id="cardXW" touchEnabled="false" touchChildren="false" scaleX="0.63" scaleY="0.63" visible="false">
+		<e:Image source="bigcardbg1_png"/>
+		<e:Image source="big_small_joker_png" right="0" bottom="0"/>
+		<e:Image x="5" source="black_joker_png" verticalCenter="-5"/>
+	</e:Group>-->
+	<e:Image id="cardBg" y="0" x="0"  source="cardBg_png" visible="false"/>
+	<e:Group id="dragonGroup" width="100%" height="100%"/>
+</e:Skin>

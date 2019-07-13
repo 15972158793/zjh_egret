@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+         #loadingBox{
+            width: 100%;
+			height: 100%;
+			position: absolute;
+            top:0;
+            left:0;
+        }
+    </style>
+</head>
+<div id="loadingBox">
+    <img id="gif" src="dn_game_bg.jpg" width="100%" height="100%">
+</div>
+<script>
+    var starttime = new Date().getTime();
+    console.log("starttime>>>>>", starttime);
+    
+    var resetLoadingBG = function () {
+        var loadingBG = document.getElementById("loadingBox");
+        if (!loadingBG)
+            return;
+        var screenWidth = window.innerWidth;
+        var screenHeight = window.innerHeight;
+
+        if (screenWidth < screenHeight) {
+            loadingBG.style.width = screenWidth + "px";
+            loadingBG.style.height = screenHeight + "px";
+            loadingBG.style.webkitTransform = 'rotate(0deg)';
+            loadingBG.style.marginLeft = "0";
+        } else {
+            loadingBG.style.width = screenHeight + "px";
+            loadingBG.style.height = screenWidth + "px";
+            loadingBG.style.webkitTransform = 'rotate(90deg)';
+            loadingBG.style['-webkit-transform-origin'] = '0px 0px 0px';
+            loadingBG.style.marginLeft = "100%";
+        }
+        loadingBG.style.display = "block";
+    };
+
+    var removeLoading = function () {
+        var box = document.getElementById("loadingBox");
+        if (box) {
+            box.style.display = "none";
+            // document.getElementById("gameCanvas").style.display = "block";
+            window.removeEventListener('resize', resetLoadingBG);
+            window.removeEventListener('orientationchange', resetLoadingBG);
+            window.removeEventListener('hlddz-ui-init', removeLoading);
+            document.body.removeChild(box);
+        }
+    };
+    window.addEventListener('resize', resetLoadingBG);
+    window.addEventListener('orientationchange', resetLoadingBG);
+    window.addEventListener('hlddz-ui-init', removeLoading);
+    resetLoadingBG();
+	// alert(0);
+</script>
+
+<!--<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js">
+</script>
+<script>
+    alert(00);
+    // 动态插入script标签 
+    function createScript(url, callback) {
+        var oScript = document.createElement('script');
+        oScript.type = 'text/javascript';
+        oScript.async = true;
+        oScript.src = url;
+        /* 
+        ** script标签的onload和onreadystatechange事件 
+        ** IE6/7/8支持onreadystatechange事件 
+        ** IE9/10支持onreadystatechange和onload事件 
+        ** Firefox/Chrome/Opera支持onload事件 
+        */
+
+        // 判断IE8及以下浏览器 
+        var isIE = !-[1,];
+        if (isIE) {
+            alert('IE')
+            oScript.onreadystatechange = function () {
+                if (this.readyState == 'loaded' || this.readyState == 'complete') {
+                    callback();
+                }
+            }
+        } else {
+            // IE9及以上浏览器，Firefox，Chrome，Opera 
+            oScript.onload = function () {
+                callback();
+            }
+        }
+        document.body.appendChild(oScript);
+    }
+
+    createScript('./resource/x_debug.js', function () {
+        createScript('./resource/x_debug-elements.min.js', function () {
+            createScript('./resource/x_debug-resources.min.js', function () {
+                createScript('./resource/x_debug-sources.min.js', function () { });
+            });
+        });
+    });
+</script>-->
+<body>
+    <div id="egret" style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="portrait" data-scale-mode="exactFit" data-frame-rate="30"
+data-content-width="750" data-content-height="1206" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false"
+data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+</div>
+<script>
+    /**
+      * 设置游戏切换到后台
+      * 
+     */
+    document.addEventListener('visibilitychange', function () {
+		// alert(1);
+        try {
+            var isHidden = document.hidden;
+			PlayerManager.isHidden = true;
+            if (isHidden) {
+                // 动画视频暂停 
+                startTime1 = new Date().getTime();
+
+                SoundManager.getInstance().musicVolume = 0;
+
+                SoundManager.getInstance().soundVolume = 0;
+				egret.Tween.removeAllTweens();
+            } else {
+                // 动画视频开始 
+                endTime1 = new Date().getTime();
+
+                // SoundManager.getInstance().musicVolume = 1;
+                // SoundManager.getInstance().soundVolume = 1;
+                var bgSet = egret.localStorage.getItem("isMusicVol");
+                var efSet = egret.localStorage.getItem("isSoundVol");
+                if (bgSet) {
+                    SoundManager.getInstance().musicVolume = bgSet == "1" ? 1 : 0;
+                } else {
+                    SoundManager.getInstance().musicVolume = PlayerManager.gameMusicOn ? 1 : 0;
+                }
+                if (efSet) {
+                    SoundManager.getInstance().soundVolume = efSet == "1" ? 1 : 0;
+                } else {
+                    SoundManager.getInstance().soundVolume = PlayerManager.gameEffectOn ? 1 : 0;
+                }
+                var time = endTime1 - startTime1;
+                console.log("time差:" + time);
+				var msg = {
+                    cmd: 271001,
+                    roleId: PlayerManager.id
+                }
+                WebsocketEngine.getInstance().sendData(msg);
+                /**if (time > 2000 && !IframeManager.getInstance().breakAllNetMessage && PlayerManager.gameIsStart) {
+
+                    SceneManager.getInstance().addView(SceneManager.GAMEROOM_NAME, 1);
+                }*/
+
+            }
+            SoundManager.getInstance().setMusicVolume();
+            SoundManager.getInstance().setSoundVolume();
+        } catch (err) {
+            console.log(">>>>>>>", err);
+			// alert(">>>>>>>", err);
+        }
+
+    });
+	// alert(3);
+    var params = {};
+    location.search.substr(1).split('&').forEach(function (item) {
+        var param = item.split('='),
+            key = decodeURIComponent(param[0]),
+            val = decodeURIComponent(param[1]);
+        if (params[key] !== undefined) {
+            if (!(params[key] instanceof Array)) {
+                params[key] = [params[key]];
+            }
+            params[key].push(val);
+        } else {
+            params[key] = val;
+        }
+    });
+    var key = '-sixzjh',
+        engine = '5.0.13',
+        oldEngine = localStorage.getItem('engine' + key),
+        version = '7.0.4',
+        oldVersion = localStorage.getItem('version' + key);
+    ossServer = params.oss ? params.oss + "/sixzjh/" : '';
+    localStorage.setItem('engine' + key, engine);
+    localStorage.setItem('version' + key, version);
+	// alert(4);
+    setProgress = function (current, total, second) {	
+        window.parent.postMessage({
+            forLobby: true,
+            cmd: 'loading',
+            percent: current / total * .5
+        }, '*');
+    };
+    (function (xhr) {
+        xhr.responseType = 'json';
+        xhr.open('GET', ossServer + 'manifest.json?v=' + version);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                var initial = xhr.response.initial.map(function (item) {
+                    return item + '?v=' + engine;
+                }),
+                    game = xhr.response.game.map(function (item) {
+                        return item + '?v' + key + '=' + version;
+                    }),
+                    list = initial.concat(game),
+                    current = 0,
+                    total = list.length;
+                engine !== oldEngine && initial.forEach(function (src) {
+                    localStorage.removeItem(src.replace('?v=' + engine, '?v=' + oldEngine));
+                });
+                version !== oldVersion && game.forEach(function (src) {
+                    localStorage.removeItem(src.replace('?v' + key + '=' + version, '?v' + key + '=' + oldVersion));
+                });
+                (function () {
+                    var src,
+                        text,
+                        callee = arguments.callee,
+                        func = function (text) {
+                            var s = document.createElement('script');
+                            s.text = text;
+                            document.body.appendChild(s);
+                            callee();
+                        };
+                    setProgress(current++, total);
+                    if (list.length) {
+                        src = list.shift();
+                        text = localStorage.getItem(src);
+                        if (text) {
+                            func(text);
+                        } else {
+                            (function (xhr) {
+                                xhr.responseType = 'text';
+                                xhr.open('GET', ossServer + src);
+                                xhr.onreadystatechange = function () {
+                                    if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                                        localStorage.setItem(src, xhr.response);
+                                        func(xhr.response);
+                                    }
+                                };
+                                xhr.send();
+                            } (new XMLHttpRequest()));
+                        }
+                    } else {
+                        egret.runEgret({
+                            renderMode: 'canvas',
+                            canvasScaleFactor: 1
+                        });
+                    }
+                } ());
+            }
+        };
+        xhr.send();
+    } (new XMLHttpRequest()));
+</script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareTopViewSkin" width="750" height="1206" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="shareRect" height="100%" alpha="0.8" width="100%"/>
+	<e:Image id="gameShareImg" x="200" y="150" source="shareImg_png"/>
+	<e:Image id="shareIco" x="645" y="25" source="jiantou_png"/>
+</e:Skin>

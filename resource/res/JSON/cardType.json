@@ -1,0 +1,14 @@
+{"file":"cardType.png","frames":{
+"type0_png":{"x":66,"y":126,"w":62,"h":28,"offX":0,"offY":0,"sourceW":62,"sourceH":28},
+"type0_1_png":{"x":67,"y":95,"w":65,"h":29,"offX":0,"offY":0,"sourceW":65,"sourceH":29},
+"type1_png":{"x":130,"y":126,"w":59,"h":26,"offX":0,"offY":0,"sourceW":59,"sourceH":26},
+"type1_1_png":{"x":0,"y":82,"w":65,"h":29,"offX":0,"offY":0,"sourceW":65,"sourceH":29},
+"type2_png":{"x":62,"y":45,"w":62,"h":33,"offX":0,"offY":0,"sourceW":62,"sourceH":33},
+"type2_1_png":{"x":126,"y":63,"w":64,"h":30,"offX":0,"offY":0,"sourceW":64,"sourceH":30},
+"type3_png":{"x":192,"y":63,"w":60,"h":30,"offX":0,"offY":0,"sourceW":60,"sourceH":30},
+"type3_1_png":{"x":0,"y":113,"w":64,"h":29,"offX":0,"offY":0,"sourceW":64,"sourceH":29},
+"type4_png":{"x":129,"y":0,"w":90,"h":29,"offX":0,"offY":0,"sourceW":90,"sourceH":29},
+"type4_1_png":{"x":129,"y":31,"w":85,"h":30,"offX":0,"offY":0,"sourceW":85,"sourceH":30},
+"type5_png":{"x":0,"y":45,"w":60,"h":35,"offX":0,"offY":0,"sourceW":60,"sourceH":35},
+"type5_1_png":{"x":134,"y":95,"w":64,"h":29,"offX":0,"offY":0,"sourceW":64,"sourceH":29},
+"juxing_png":{"x":0,"y":0,"w":127,"h":43,"offX":0,"offY":0,"sourceW":127,"sourceH":43}}}

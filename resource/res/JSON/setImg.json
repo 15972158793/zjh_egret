@@ -1,0 +1,6 @@
+{"file":"setImg.png","frames":{
+"effectImg_png":{"x":155,"y":0,"w":77,"h":37,"offX":0,"offY":0,"sourceW":77,"sourceH":37},
+"musicImg_png":{"x":155,"y":39,"w":76,"h":37,"offX":0,"offY":0,"sourceW":76,"sourceH":37},
+"OFF_png":{"x":0,"y":0,"w":153,"h":70,"offX":0,"offY":0,"sourceW":153,"sourceH":70},
+"ON_png":{"x":0,"y":72,"w":151,"h":70,"offX":0,"offY":0,"sourceW":151,"sourceH":70},
+"setTitle_png":{"x":0,"y":144,"w":121,"h":64,"offX":0,"offY":0,"sourceW":121,"sourceH":64}}}

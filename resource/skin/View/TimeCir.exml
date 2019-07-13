@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TimeCir" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1206" height="750">
+	<e:Group id="cirGroup" height="100%" width="100%" touchThrough="true"/>
+</e:Skin>
